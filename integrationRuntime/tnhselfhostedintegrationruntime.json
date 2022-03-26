@@ -1,0 +1,6 @@
+{
+	"name": "tnhselfhostedintegrationruntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

@@ -12,6 +12,10 @@
 				},
 				"secretName": "tnhsecretname"
 			}
+		},
+		"connectVia": {
+			"referenceName": "tnhselfhostedintegrationruntime",
+			"type": "IntegrationRuntimeReference"
 		}
 	}
 }

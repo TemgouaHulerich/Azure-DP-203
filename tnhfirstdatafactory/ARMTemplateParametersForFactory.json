@@ -5,23 +5,20 @@
 		"factoryName": {
 			"value": "tnhfirstdatafactory"
 		},
-		"AmazonS31_secretAccessKey": {
-			"value": ""
-		},
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
 		},
-		"AzureDataLakeStorage1_accountKey": {
+		"tnhDataLakeStorageLinkedService_accountKey": {
 			"value": ""
 		},
-		"AmazonS31_properties_typeProperties_accessKeyId": {
-			"value": "tnhaccesskey"
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://tnhfirststorageaccount.dfs.core.windows.net"
-		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+		"AzureKeyVaultLinkedService_properties_typeProperties_baseUrl": {
 			"value": "https://tnhFirstKeyVault.vault.azure.net/"
+		},
+		"tnhBlobStorageLinkedService_properties_typeProperties_connectionString_secretName": {
+			"value": "tnhsecretname"
+		},
+		"tnhDataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://tnhdatalakegen2.dfs.core.windows.net"
 		}
 	}
 }

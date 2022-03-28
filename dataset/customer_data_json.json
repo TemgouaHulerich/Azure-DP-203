@@ -1,0 +1,31 @@
+{
+	"name": "customer_data_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "tnhBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"FILE_NAME": {
+				"type": "string",
+				"defaultValue": "customers_2021-01-01.json"
+			},
+			"CONTAINER": {
+				"type": "string",
+				"defaultValue": "landingarea"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": {
+					"value": "@dataset().CONTAINER",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	}
+}

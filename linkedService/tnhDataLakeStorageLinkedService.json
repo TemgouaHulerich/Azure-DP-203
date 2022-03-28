@@ -1,0 +1,12 @@
+{
+	"name": "tnhDataLakeStorageLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://tnhdatalakegen2.dfs.core.windows.net",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDhFMDIzQTA3LTI4MTItNERBNS1CRTA5LTYxRDYyMDNDQzAyM19lY2I1MTI3OS1lNTJiLTQwYWItYjI1OS05YTg2MTcyOWE5MWQiDQp9"
+		}
+	}
+}
